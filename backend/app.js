@@ -36,9 +36,9 @@ app.use(
     })
 );
 
-app.use("/api/v1/user", userRouter);
-app.use("/api/v1/job", jobRouter);
-app.use("/api/v1/application", applicationRouter);
+app.use("/api/user", userRouter);
+app.use("/api/job", jobRouter);
+app.use("/api/application", applicationRouter);
 dbConnection();
 
   
